@@ -4,16 +4,16 @@
     <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body>
-    <div class="jumbotron">
-        <center><h1>News Aggregator</h1>
-            <a href="{% url 'scrape' %}" class="btn btn-success">Get my morning news</a>
+<body style="background-color: black;">
+    <div class="jumbotron" style="background-color: rgb(83, 81, 81);">
+        <center><h1 style="color:black;font-weight: bold;font-size: 80px;">News Aggregator</h1>
+            <a href="{% url 'scrape' %}" class="btn btn-success" style="background-color: black;margin-top: 20px;width: 190px;height: 80px;font-weight: bold;font-size: 30px;padding: 10px;">Load news</a>
         </form>
     </center>
     </div>
-  <div class="card-columns" style="padding: 10px; margin: 20px;">
+  <div class="card-columns" style="padding: 10px; margin-left: 150px;margin-right: 10px;">
     {% for object in object_list %}
-    <div class="card" style="width: 18rem;border:5px black solid;">
+    <div class="card" style="width: 18rem;border:5px white solid;margin-bottom: 50px;">
   <img class="card-img-top" src = "{{ object.image }}">
   <div class="card-body">
     <h5 class="card-title"><div class="card-body">
