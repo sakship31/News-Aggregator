@@ -16,7 +16,7 @@ Both of these technologies have their implementation in Python.
 
 ## Features ##
 Our news aggregator works in 3 steps:<br>
-1.It scrapes the news website for the articles.In this Django project, we are scraping a website called theonion 
+1.It scrapes the news website for the articles.In this Django project, we are scraping a website 'www.theonion.com'<br> 
 (We have scraped news articles from 'latest' section of 'www.theonion.com' for demonstration)<br>
 2.Then it stores the article’s images, links, and title.<br>
 3.The stored objects in the database are served to the client. The client gets information in a nice template.<br>
