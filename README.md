@@ -15,7 +15,7 @@ News aggregator is a Django project to scrape a news website using Beautiful sou
 Both of these technologies have their implementation in Python. 
 
 ## Features ##
-Our news aggregator works in 3 steps:
+Our news aggregator works in 3 steps:<br>
 1.It scrapes the news website for the articles.In this Django project, we are scraping a website called theonion 
 (We have scraped news articles from 'latest' section of 'www.theonion.com' for demonstration)<br>
 2.Then it stores the article’s images, links, and title.<br>
