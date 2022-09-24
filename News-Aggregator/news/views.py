@@ -19,8 +19,8 @@ def scrape(request):
     linkx = article.find('a', {"class":"sc-1out364-0 hMndXN js_link"})
     link=linkx['href']
     imgx=main[0].find('img',src=True)
-    image_src=imgx['srcset'].split(" ")[-4]
-    titlex = article.find('h2', {"class":"sc-759qgu-0 cYlVdn cw4lnv-6 eXwNRE"})
+    image_src=imgx['data-srcset'].split(" ")[-4]
+    titlex = article.find('h2', {"class":"sc-759qgu-0 iRbzKE cw4lnv-6 pdtMb"})
     title = titlex.text
     new_headline = Headline()
     #Headline.objects.all().delete()
