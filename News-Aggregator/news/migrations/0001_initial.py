@@ -18,6 +18,7 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=200)),
                 ('image', models.URLField(blank=True, null=True)),
                 ('url', models.TextField()),
+                ('date', models.TextField()),
             ],
         ),
     ]
