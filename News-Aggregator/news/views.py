@@ -13,20 +13,24 @@ def scrape(request):
   url = "https://www.theonion.com/latest"
   content = session.get(url).content
   soup = BSoup(content, "html.parser")
-  News = soup.find_all('div', {"class":"cw4lnv-11 dFCKPx"})
+
+  News = soup.find_all('div', {"class":"sc-cw4lnv-13 hHSpAQ"})
+
   for article in News:
     main = article.find_all('a',href=True)
-    linkx = article.find('a', {"class":"sc-1out364-0 hMndXN js_link"})
-    link=linkx['href']
-    imgx=main[0].find('img',src=True)
-    image_src=imgx['data-srcset'].split(" ")[-4]
-    titlex = article.find('h2', {"class":"sc-759qgu-0 iRbzKE cw4lnv-6 pdtMb"})
+ 
+    linkx = article.find('a', {"class":"sc-1out364-0 dPMosf js_link"})
+    link=linkx['href']    
+    
+    titlex = article.find('h2', {"class":"sc-759qgu-0 cvZkKd sc-cw4lnv-6 TLSoz"})
     title = titlex.text
+    
+    imgx = article.find('img')["data-src"]
+
     new_headline = Headline()
-    #Headline.objects.all().delete()
     new_headline.title = title
     new_headline.url = link
-    new_headline.image = image_src
+    new_headline.image = imgx
     new_headline.save()
   return redirect("../")
 
