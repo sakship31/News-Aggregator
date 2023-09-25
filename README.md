@@ -21,7 +21,7 @@ Our news aggregator works in 3 steps:<br>
 2.Then it stores the article’s images, links, and title.<br>
 3.The stored objects in the database are served to the client. The client gets information in a nice template by clicking the 'Load news' button and select the different options available to you.The options are: Latest,Entertainment,Sports,Politics,Opinion,Breaking-News<br>
 
-----------------------------------------------------------------------------------------
+        ----------------------------------------------------------------------------------------
 ### Screenshots ###
 ![](https://github.com/sakship31/News-Aggregator/blob/master/screenshots/ss.PNG)
 ![](https://github.com/sakship31/News-Aggregator/blob/master/screenshots/ss1.PNG)
