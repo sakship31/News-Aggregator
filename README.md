@@ -23,8 +23,32 @@ Our news aggregator works in 3 steps:<br>
 
         ----------------------------------------------------------------------------------------
 ### Screenshots ###
-![](https://github.com/sakship31/News-Aggregator/blob/master/screenshots/ss.PNG)
-![](https://github.com/sakship31/News-Aggregator/blob/master/screenshots/ss1.PNG)
+## Latest
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/latest_light_mode.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/latest_night_mode.PNG)
+## Entertainment
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/entertainment_light_mode.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/entertainment_night_mode.PNG)
+## Sports
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/sports_light_mode.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/sports_night_mode.PNG)
+## Politics
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/polititcs_light_mode.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/polititcs_night_mode.PNG)
+## Breaking News
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/breaking_light_mode.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/breaking_night_mode.PNG)
+## Opinion News
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/opinion_light_mode.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/opinion_night_mode.PNG)
+## Facebook share
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/facebook_share.PNG)
+## Whatsapp share
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/whatsapp_share.PNG)
+## Telegram share
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/telegram_share.PNG)
+## Copy to clipboard
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/copy_to_clipboard.PNG)
 ---------------------------------------------------------------------------------------
 
 ## How To Use
@@ -39,6 +63,7 @@ Install the dependencies by running:
 ```html  
     pip install bs4
     pip install requests
+    pip install django-social-share
 ```
 
 #### Run using Command Prompt
