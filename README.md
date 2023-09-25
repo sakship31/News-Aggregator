@@ -21,14 +21,11 @@ Our news aggregator works in 3 steps:<br>
 2.Then it stores the article’s images, links, and title.<br>
 3.The stored objects in the database are served to the client. The client gets information in a nice template by clicking the 'Load news' button and select the different options available to you.The options are: Latest,Entertainment,Sports,Politics,Opinion,Breaking-News<br>
 
----
-
-### Screenshots
-
+----------------------------------------------------------------------------------------
+### Screenshots ###
 ![](https://github.com/sakship31/News-Aggregator/blob/master/screenshots/ss.PNG)
 ![](https://github.com/sakship31/News-Aggregator/blob/master/screenshots/ss1.PNG)
-
----
+---------------------------------------------------------------------------------------
 
 ## How To Use
 
@@ -39,9 +36,9 @@ Python3
 #### Installation
 
 Install the dependencies by running:
-
-```html
-pip install bs4 pip install requests pip install djando-social-share
+```html  
+    pip install bs4
+    pip install requests
 ```
 
 #### Run using Command Prompt
