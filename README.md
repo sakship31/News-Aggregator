@@ -42,11 +42,11 @@ Our news aggregator works in 3 steps:<br>
 ![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/opinion_light_mode.PNG)
 ![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/opinion_night_mode.PNG)
 ## Facebook share
-![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/opinion_night_mode.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/facebook_share.PNG)
 ## Whatsapp share
-![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/opinion_night_mode.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/whatsapp_share.PNG)
 ## Telegram share
-![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/opinion_night_mode.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/telegram_share.PNG)
 ## Copy to clipboard
 ![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/copy_to_clipbaord.PNG)
 ---------------------------------------------------------------------------------------
