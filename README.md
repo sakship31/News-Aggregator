@@ -33,8 +33,8 @@ Our news aggregator works in 3 steps:<br>
 ![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/sports_light_mode.PNG)
 ![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/sports_night_mode.PNG)
 ## Politics
-![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/politics_light_mode.PNG)
-![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/politics_night_mode.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/polititcs_light_mode.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/polititcs_night_mode.PNG)
 ## Breaking News
 ![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/breaking_light_mode.PNG)
 ![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/breaking_night_mode.PNG)
