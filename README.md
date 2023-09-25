@@ -48,7 +48,7 @@ Our news aggregator works in 3 steps:<br>
 ## Telegram share
 ![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/telegram_share.PNG)
 ## Copy to clipboard
-![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/copy_to_clipbaord.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/copy_to_clipboard.PNG)
 ---------------------------------------------------------------------------------------
 
 ## How To Use
@@ -63,6 +63,7 @@ Install the dependencies by running:
 ```html  
     pip install bs4
     pip install requests
+    pip install django-social-share
 ```
 
 #### Run using Command Prompt
