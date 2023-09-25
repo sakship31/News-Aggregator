@@ -19,12 +19,12 @@ Our news aggregator works in 3 steps:<br>
 1.It scrapes the news website for the articles.In this Django project, we are scraping a website 'www.theonion.com'<br> 
 (We have scraped news articles from 'latest' section of 'www.theonion.com' for demonstration)<br>
 2.Then it stores the article’s images, links, and title.<br>
-3.The stored objects in the database are served to the client. The client gets information in a nice template by clicking the 'Load news' button<br>
+3.The stored objects in the database are served to the client. The client gets information in a nice template by clicking the 'Load news' button and select the different options available to you.The options are: Latest,Entertainment,Sports,Politics,Opinion,Breaking-News<br>
 
 ----------------------------------------------------------------------------------------
 ### Screenshots ###
-![](https://github.com/sakship31/News-Aggregator/blob/master/screenshots/ss.PNG)
-![](https://github.com/sakship31/News-Aggregator/blob/master/screenshots/ss1.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/ss.PNG)
+![](https://github.com/sam-boghara/News-Aggregator/blob/master/screenshots/ss1.PNG)
 ---------------------------------------------------------------------------------------
 
 ## How To Use
@@ -36,6 +36,8 @@ Install the dependencies by running:
 ```html  
     pip install bs4
     pip install requests
+    pip install django-social-share
+    
 ```
 
 #### Run using Command Prompt
