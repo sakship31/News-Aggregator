@@ -1,0 +1,15 @@
+asgiref==3.7.2
+beautifulsoup4==4.12.2
+bs4==0.0.1
+certifi==2023.7.22
+charset-normalizer==3.2.0
+Django==3.2.21
+django-social-share==2.3.0
+gunicorn==21.2.0
+idna==3.4
+packaging==23.1
+requests==2.31.0
+soupsieve==2.4.1
+sqlparse==0.4.4
+tzdata==2023.3
+urllib3==2.0.4
